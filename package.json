@@ -1,0 +1,69 @@
+{
+  "name": "hoc-element-table-build",
+  "description": "📥 Build for hoc-element-table",
+  "version": "0.0.1",
+  "author": "Wisdom <pdsu.wwz@foxmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "deploy:gh-pages": "cross-env VITE_ROUTER_MODE=hash pnpm build",
+    "preview": "vite preview --host",
+    "lint": "eslint ./src --ext .js,.jsx,.vue",
+    "lint:fix": "eslint --fix --cache --ext .js,.jsx,.vue ./src"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "vue-next",
+    "vite",
+    "jest",
+    "vue3-jest",
+    "admin",
+    "example",
+    "template",
+    "dashboard",
+    "framework",
+    "prototyping",
+    "element-plus",
+    "admin-template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdsuwwz/hoc-element-table-build"
+  },
+  "bugs": {
+    "url": "https://github.com/pdsuwwz/hoc-element-table-build/issues"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^0.2.4",
+    "@hoc-element/table": "^1.0.0",
+    "element-plus": "^1.2.0-beta.6",
+    "js-cookie": "^3.0.1",
+    "lodash": "^4.17.21",
+    "nprogress": "^0.2.0",
+    "vue": "^3.2.26",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/eslint-parser": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@vitejs/plugin-vue": "^2.0.1",
+    "@vue/compiler-sfc": "^3.2.26",
+    "@vue/test-utils": "^2.0.0-rc.18",
+    "babel-plugin-transform-vite-meta-env": "^1.0.3",
+    "clipboard": "^2.0.8",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.5.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "6.0.0",
+    "eslint-plugin-vue": "^8.2.0",
+    "identity-obj-proxy": "^3.0.0",
+    "rollup": "^2.62.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "sass": "^1.45.1",
+    "vite": "^2.7.9"
+  }
+}
