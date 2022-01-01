@@ -41,7 +41,7 @@
           { text: '高亮选中第1行', action: () => setCurrentRow(1) },
           { text: '取消选中行', action: () => setCurrentRow() }
         ]"
-        @getList="getList"
+        @get-list="getList"
       />
     </div>
   </div>
