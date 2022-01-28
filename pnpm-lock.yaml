@@ -12,7 +12,7 @@ specifiers:
   babel-plugin-transform-vite-meta-env: ^1.0.3
   clipboard: ^2.0.9
   cross-env: ^7.0.3
-  element-plus: ^1.2.0-beta.6
+  element-plus: ^1.3.0-beta.9
   eslint: ^8.7.0
   eslint-plugin-import: ^2.25.4
   eslint-plugin-node: ^11.1.0
@@ -31,8 +31,8 @@ specifiers:
 
 dependencies:
   '@element-plus/icons-vue': 0.2.6_vue@3.2.29
-  '@hoc-element/table': 1.0.0_694da055964ba99d2741000ca7177ba9
-  element-plus: 1.2.0-beta.6_vue@3.2.29
+  '@hoc-element/table': 1.0.0_672d384b0b635e3a52670122e71c6aaf
+  element-plus: 1.3.0-beta.9_vue@3.2.29
   js-cookie: 3.0.1
   lodash: 4.17.21
   nprogress: 0.2.0
@@ -1200,6 +1200,11 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
+  /@ctrl/tinycolor/3.4.0:
+    resolution: {integrity: sha512-JZButFdZ1+/xAfpguQHoabIXkcqRRKpMrWKBkpEZZyxfY9C1DpADFB8PEqGSTeFr135SaTRfKqGKx5xSCLI7ZQ==}
+    engines: {node: '>=10'}
+    dev: false
+
   /@element-plus/icons-vue/0.2.6_vue@3.2.29:
     resolution: {integrity: sha512-2gg7VCq4d2firgl7/aVym4Cx/wqKFwKybEQGJiiWJN4urW36+QdAEG1knqSD9qidbjhVp0Jnc9XdSTR1/4Whzw==}
     peerDependencies:
@@ -1225,13 +1230,13 @@ packages:
       - supports-color
     dev: true
 
-  /@hoc-element/table/1.0.0_694da055964ba99d2741000ca7177ba9:
+  /@hoc-element/table/1.0.0_672d384b0b635e3a52670122e71c6aaf:
     resolution: {integrity: sha512-OY0/fW1ebJgOHv7P4ZK4LoMp1VG2NDAL1xo4JME7qHlFBBcH438Hr94kcHnIaN05MzaSSXcGXc3hAakn0wk9vA==}
     peerDependencies:
       element-plus: '>=1.2.0'
       vue: '>=3.2.0'
     dependencies:
-      element-plus: 1.2.0-beta.6_vue@3.2.29
+      element-plus: 1.3.0-beta.9_vue@3.2.29
       vue: 3.2.29
     dev: false
 
@@ -1768,11 +1773,12 @@ packages:
     resolution: {integrity: sha512-0k/S0FQqRRpJbX7YUjwCcLZ8D42RqGKtaiq90adXBOYgTIWwLA/g3toO8k9yEpqU8iC4QyaWYYWSTBIna8WV4g==}
     dev: true
 
-  /element-plus/1.2.0-beta.6_vue@3.2.29:
-    resolution: {integrity: sha512-8EdSIR/5/FHcSB8w1diAh+gJMHgxIvxuZoayY99k6taAR1QyEFHuPTgFccZLopJ1+iP4UEsZFz49l57qS08Utw==}
+  /element-plus/1.3.0-beta.9_vue@3.2.29:
+    resolution: {integrity: sha512-h+I6VVtJNwjVkNhfhXp2oCYjgBN7kWQ2Y6nWzwc0wiphAlQDhGuBXAGj9eYpf1uOrMgIpFFwbRhvK7C6sOJsWg==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
+      '@ctrl/tinycolor': 3.4.0
       '@element-plus/icons-vue': 0.2.6_vue@3.2.29
       '@popperjs/core': 2.11.2
       '@vueuse/core': 7.5.5_vue@3.2.29
