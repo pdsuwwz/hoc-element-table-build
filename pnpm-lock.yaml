@@ -5,7 +5,7 @@ specifiers:
   '@babel/eslint-parser': ^7.17.0
   '@babel/preset-env': ^7.16.11
   '@element-plus/icons-vue': ^0.2.7
-  '@hoc-element/table': ^1.0.1
+  '@hoc-element/table': 2.0.0
   '@vitejs/plugin-vue': ^2.2.2
   '@vue/compiler-sfc': ^3.2.31
   '@vue/test-utils': ^2.0.0-rc.18
@@ -31,7 +31,7 @@ specifiers:
 
 dependencies:
   '@element-plus/icons-vue': 0.2.7_vue@3.2.31
-  '@hoc-element/table': 1.0.1_element-plus@2.0.2+vue@3.2.31
+  '@hoc-element/table': 2.0.0_element-plus@2.0.2+vue@3.2.31
   element-plus: 2.0.2_vue@3.2.31
   js-cookie: 3.0.1
   lodash: 4.17.21
@@ -1237,10 +1237,10 @@ packages:
       - supports-color
     dev: true
 
-  /@hoc-element/table/1.0.1_element-plus@2.0.2+vue@3.2.31:
-    resolution: {integrity: sha512-Mjs3gk/YJ39MHZ+tWOGuYrUN2Y4wZ3BsUZgnYF0Pphjm/JZ9Bt4vwJononRSVyvxMjDuaJW3BsvJuuVTSEyX1Q==}
+  /@hoc-element/table/2.0.0_element-plus@2.0.2+vue@3.2.31:
+    resolution: {integrity: sha512-/aiNzNnZzl3l+/nR+KS+h+XEmR1eiFsAo5wiNcqRFUpmnP7iFNnByBjw/14TkD0oTrWV0n+YivUZNrfSCpYUNQ==}
     peerDependencies:
-      element-plus: '>=1.2.0'
+      element-plus: '>=2.0.0'
       vue: '>=3.2.0'
     dependencies:
       element-plus: 2.0.2_vue@3.2.31
