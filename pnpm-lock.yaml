@@ -4,7 +4,7 @@ specifiers:
   '@babel/core': ^7.17.12
   '@babel/eslint-parser': ^7.17.0
   '@babel/preset-env': ^7.17.12
-  '@element-plus/icons-vue': 1.1.4
+  '@element-plus/icons-vue': 2.0.4
   '@hoc-element/table': 2.2.0
   '@vitejs/plugin-vue': ^2.3.3
   '@vue/compiler-sfc': ^3.2.33
@@ -30,7 +30,7 @@ specifiers:
   vue-router: ^4.0.15
 
 dependencies:
-  '@element-plus/icons-vue': 1.1.4_vue@3.2.33
+  '@element-plus/icons-vue': 2.0.4_vue@3.2.33
   '@hoc-element/table': 2.2.0_gj4k553hbh2voiuqrlbohrjp5m
   element-plus: 2.2.0_vue@3.2.33
   js-cookie: 3.0.1
@@ -1208,6 +1208,14 @@ packages:
 
   /@element-plus/icons-vue/1.1.4_vue@3.2.33:
     resolution: {integrity: sha512-Iz/nHqdp1sFPmdzRwHkEQQA3lKvoObk8azgABZ81QUOpW9s/lUyQVUSh0tNtEPZXQlKwlSh7SPgoVxzrE0uuVQ==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      vue: 3.2.33
+    dev: false
+
+  /@element-plus/icons-vue/2.0.4_vue@3.2.33:
+    resolution: {integrity: sha512-UeBVBU3fuBsYa9mzM7DgkRztQ1Aftw3sMTI/1gZsqXq2NWiCOi16ZYXXGIc0jFDIu+k6SojzdlxOjv+rN/Y6FQ==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:

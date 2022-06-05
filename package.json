@@ -36,7 +36,7 @@
     "url": "https://github.com/pdsuwwz/hoc-element-table-build/issues"
   },
   "dependencies": {
-    "@element-plus/icons-vue": "1.1.4",
+    "@element-plus/icons-vue": "2.0.4",
     "@hoc-element/table": "2.2.0",
     "element-plus": "^2.2.0",
     "js-cookie": "^3.0.1",
