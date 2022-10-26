@@ -22,7 +22,7 @@ specifiers:
   js-cookie: ^3.0.1
   lodash: ^4.17.21
   nprogress: ^0.2.0
-  rollup: ^2.77.0
+  rollup: ^3.0.0
   rollup-plugin-terser: ^7.0.2
   sass: ^1.54.0
   vite: ^3.0.2
@@ -55,8 +55,8 @@ devDependencies:
   eslint-plugin-promise: 6.0.1_eslint@8.20.0
   eslint-plugin-vue: 9.5.1_eslint@8.20.0
   identity-obj-proxy: 3.0.0
-  rollup: 2.77.0
-  rollup-plugin-terser: 7.0.2_rollup@2.77.0
+  rollup: 3.2.3
+  rollup-plugin-terser: 7.0.2_rollup@3.2.3
   sass: 1.54.0
   vite: 3.0.2_sass@1.54.0
 
@@ -3159,14 +3159,14 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup-plugin-terser/7.0.2_rollup@2.77.0:
+  /rollup-plugin-terser/7.0.2_rollup@3.2.3:
     resolution: {integrity: sha512-w3iIaU4OxcF52UUXiZNsNeuXIMDvFrr+ZXK6bFZ0Q60qyVfq4uLptoS4bbq3paG3x216eQllFZX7zt6TIImguQ==}
     peerDependencies:
       rollup: ^2.0.0
     dependencies:
       '@babel/code-frame': 7.18.6
       jest-worker: 26.6.2
-      rollup: 2.77.0
+      rollup: 3.2.3
       serialize-javascript: 4.0.0
       terser: 5.14.2
     dev: true
@@ -3174,6 +3174,14 @@ packages:
   /rollup/2.77.0:
     resolution: {integrity: sha512-vL8xjY4yOQEw79DvyXLijhnhh+R/O9zpF/LEgkCebZFtb6ELeN9H3/2T0r8+mp+fFTBHZ5qGpOpW2ela2zRt3g==}
     engines: {node: '>=10.0.0'}
+    hasBin: true
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+
+  /rollup/3.2.3:
+    resolution: {integrity: sha512-qfadtkY5kl0F5e4dXVdj2D+GtOdifasXHFMiL1SMf9ADQDv5Eti6xReef9FKj+iQPR2pvtqWna57s/PjARY4fg==}
+    engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
       fsevents: 2.3.2
