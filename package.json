@@ -49,7 +49,7 @@
     "@babel/core": "^7.18.9",
     "@babel/eslint-parser": "^7.18.9",
     "@babel/preset-env": "^7.18.9",
-    "@vitejs/plugin-vue": "^3.0.1",
+    "@vitejs/plugin-vue": "^4.0.0",
     "@vue/compiler-sfc": "^3.2.37",
     "@vue/test-utils": "^2.0.2",
     "babel-plugin-transform-vite-meta-env": "^1.0.3",
