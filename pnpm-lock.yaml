@@ -6,7 +6,7 @@ specifiers:
   '@babel/preset-env': ^7.18.9
   '@element-plus/icons-vue': 2.0.10
   '@hoc-element/table': 2.2.0
-  '@vitejs/plugin-vue': ^3.0.1
+  '@vitejs/plugin-vue': ^4.0.0
   '@vue/compiler-sfc': ^3.2.37
   '@vue/test-utils': ^2.0.2
   babel-plugin-transform-vite-meta-env: ^1.0.3
@@ -43,7 +43,7 @@ devDependencies:
   '@babel/core': 7.18.9
   '@babel/eslint-parser': 7.18.9_454u7sltq2wfyzqnoclqps3oeu
   '@babel/preset-env': 7.18.9_@babel+core@7.18.9
-  '@vitejs/plugin-vue': 3.0.1_vite@3.0.2+vue@3.2.37
+  '@vitejs/plugin-vue': 4.0.0_vite@3.0.2+vue@3.2.37
   '@vue/compiler-sfc': 3.2.37
   '@vue/test-utils': 2.0.2_vue@3.2.37
   babel-plugin-transform-vite-meta-env: 1.0.3
@@ -1382,11 +1382,11 @@ packages:
     resolution: {integrity: sha512-5d2RhCard1nQUC3aHcq/gHzWYO6K0WJmAbjO7mQJgCQKtZpgXxv1rOM6O/dBDhDYYVutk1sciOgNSe+5YyfM8A==}
     dev: false
 
-  /@vitejs/plugin-vue/3.0.1_vite@3.0.2+vue@3.2.37:
-    resolution: {integrity: sha512-Ll9JgxG7ONIz/XZv3dssfoMUDu9qAnlJ+km+pBA0teYSXzwPCIzS/e1bmwNYl5dcQGs677D21amgfYAnzMl17A==}
+  /@vitejs/plugin-vue/4.0.0_vite@3.0.2+vue@3.2.37:
+    resolution: {integrity: sha512-e0X4jErIxAB5oLtDqbHvHpJe/uWNkdpYV83AOG2xo2tEVSzCzewgJMtREZM30wXnM5ls90hxiOtAuVU6H5JgbA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
-      vite: ^3.0.0
+      vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
       vite: 3.0.2_sass@1.54.0
