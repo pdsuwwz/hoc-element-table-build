@@ -11,7 +11,7 @@ specifiers:
   '@vue/test-utils': ^2.0.2
   babel-plugin-transform-vite-meta-env: ^1.0.3
   clipboard: ^2.0.11
-  cross-env: ^7.0.3
+  cross-env: ^10.0.0
   element-plus: ^2.2.10
   eslint: ^8.20.0
   eslint-plugin-import: ^2.26.0
@@ -48,7 +48,7 @@ devDependencies:
   '@vue/test-utils': 2.0.2_vue@3.2.37
   babel-plugin-transform-vite-meta-env: 1.0.3
   clipboard: 2.0.11
-  cross-env: 7.0.3
+  cross-env: 10.1.0
   eslint: 8.20.0
   eslint-plugin-import: 2.26.0_eslint@8.20.0
   eslint-plugin-node: 11.1.0_eslint@8.20.0
@@ -1229,6 +1229,10 @@ packages:
       vue: 3.2.37
     dev: false
 
+  /@epic-web/invariant/1.0.0:
+    resolution: {integrity: sha512-lrTPqgvfFQtR/eY/qkIzp98OGdNJu0m5ji3q/nJI8v3SXkRKEnWiOxMmbvcSoAIzv/cGiuvRy57k4suKQSAdwA==}
+    dev: true
+
   /@esbuild/android-arm/0.16.4:
     resolution: {integrity: sha512-rZzb7r22m20S1S7ufIc6DC6W659yxoOrl7sKP1nCYhuvUlnCFHVSbATG4keGUtV8rDz11sRRDbWkvQZpzPaHiw==}
     engines: {node: '>=12'}
@@ -1981,16 +1985,26 @@ packages:
       semver: 7.0.0
     dev: true
 
-  /cross-env/7.0.3:
-    resolution: {integrity: sha512-+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw==}
-    engines: {node: '>=10.14', npm: '>=6', yarn: '>=1'}
+  /cross-env/10.1.0:
+    resolution: {integrity: sha512-GsYosgnACZTADcmEyJctkJIoqAhHjttw7RsFrVoJNXbsWWqaq6Ym+7kZjq6mS45O0jij6vtiReppKQEtqWy6Dw==}
+    engines: {node: '>=20'}
     hasBin: true
     dependencies:
-      cross-spawn: 7.0.3
+      '@epic-web/invariant': 1.0.0
+      cross-spawn: 7.0.6
     dev: true
 
   /cross-spawn/7.0.3:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
+    engines: {node: '>= 8'}
+    dependencies:
+      path-key: 3.1.1
+      shebang-command: 2.0.0
+      which: 2.0.2
+    dev: true
+
+  /cross-spawn/7.0.6:
+    resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
     engines: {node: '>= 8'}
     dependencies:
       path-key: 3.1.1

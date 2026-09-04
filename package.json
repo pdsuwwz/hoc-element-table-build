@@ -54,7 +54,7 @@
     "@vue/test-utils": "^2.0.2",
     "babel-plugin-transform-vite-meta-env": "^1.0.3",
     "clipboard": "^2.0.11",
-    "cross-env": "^7.0.3",
+    "cross-env": "^10.0.0",
     "eslint": "^8.20.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-node": "^11.1.0",
